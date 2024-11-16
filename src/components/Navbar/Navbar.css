@@ -1,0 +1,46 @@
+nav {
+    padding: 10px 2%;                    /* Adds 10px padding top/bottom and 2% left/right */
+    justify-content: space-between;       /* Distributes space evenly between child elements */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow below the nav for depth */
+    background: #fff;                     /* Sets the background color to white */
+    position: sticky;                     /* Makes the nav stick to the top when scrolling */
+    top: 0;                               /* Positions the sticky nav at the top of the viewport */
+    z-index: 10;                          /* Ensures the nav stays above other elements with a lower z-index */
+}
+
+.nav-left .menu-icon{
+    width:22px;
+    margin-right:25px;
+}
+
+.nav-left .logo{
+    width: 130px;
+}
+
+.nav-middle .search-box{
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius:25px;
+}
+
+.nav-middle .search-box input{
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+.nav-middle .search-box img{
+    width:15px;
+}
+
+.nav-right img{
+    width:25px;
+    margin-right: 25px;
+}
+
+.nav-right .user-icon{
+    width: 35px;
+    border-radius: 50%;
+}
